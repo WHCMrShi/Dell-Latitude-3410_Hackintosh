@@ -15,8 +15,9 @@ OpenCore EFI for Dell Latitude 3410 with 10th generation Intel processor
 ## Not working
 dGPU (No NVIDIA dGPU support)  
 Microphone (No Intel microphone array support, use USB-C DAC instead)  
-HDMI output (Can't fix)  
-Sleep (AOAC, Can't fix)  
+Sleep (AOAC, Not stable enough to enable)  
+Display Port via Type-C not tested yet  
 
 ## Remark
-Modify SMBIOS info in `EFI/OC/config.plist/Root/PlatformInfo/Generic` before boot
+Modify SMBIOS info in `EFI/OC/config.plist/Root/PlatformInfo/Generic` before boot  
+Check [here](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/coffee-lake-plus.html#platforminfo) for more help

@@ -12,6 +12,13 @@ OpenCore EFI for Dell Latitude 3410 with 10th generation Intel processor
 |  WLAN  | Intel AX201  |
 |  LAN  | Realtek RTL8111  |
 
+## macOS version
+
+Build for macOS Ventura 13.4, should also work for other lower versions of macOS  
+If you need to use it for other versions of macOS besides Ventura, please change `AirportItlwm.kext` in `EFI/OC/Kexts` to the corresponding version  
+e.g. Download and use `AirportItlwm_v2.2.0_stable_BigSur.kext.zip` from [this link](https://github.com/OpenIntelWireless/itlwm/releases) for macOS 11
+
+
 ## Not working
 dGPU (No NVIDIA dGPU support)  
 Microphone (No Intel microphone array support, use USB-C DAC instead)  
